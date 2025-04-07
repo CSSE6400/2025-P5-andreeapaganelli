@@ -68,7 +68,7 @@ resource "aws_db_instance" "taskoverflow_database" {
 
 resource "aws_security_group" "taskoverflow_database" {
     name = "taskoverflow_database"
-    description = "Allow inbound Postgresql traffic"
+    description = "Allow inbound PostgreSQL traffic"
 
     ingress {
         from_port = 5432
